@@ -65,7 +65,7 @@ console.log(sliders)
       
     }
      
-      alert('you already added it')
+      
     
 
   }
@@ -105,10 +105,12 @@ const createSlider = () => {
   
     timer = setInterval(function () {
      
-      if (duration>0) {
+      if (duration > 0) {
         slideIndex++;
       changeSlide(slideIndex);
       }else{
+
+      
 
 alert('fixed positive value')
 
