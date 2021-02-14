@@ -26,7 +26,7 @@ const showImages = (images) => {
     div.className = 'col-lg-3 col-md-4 col-xs-6 img-item mb-2';
     div.innerHTML = `<img class="img-fluid img-thumbnail" onclick=selectItem(event,"${image.webformatURL}") src="${image.webformatURL}" alt="${image.tags}">`;
     gallery.appendChild(div)
-   
+    
   })
   toggleSpinner();
 }
@@ -106,7 +106,7 @@ const createSlider = () => {
       changeSlide(slideIndex);
       }else{
 
-      
+        
 
 alert('fixed positive value')
 
