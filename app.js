@@ -63,8 +63,6 @@ const selectItem = (event, img) => {
       
     }
      
-      
-    
 
   }
 
