@@ -62,9 +62,10 @@ console.log(sliders)
   else{
     if (item > -1) {
       sliders.splice(item, 1);
+      
     }
      
-      // alert('you already added it')
+      alert('you already added it')
     
 
   }
